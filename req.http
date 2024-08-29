@@ -1,0 +1,27 @@
+POST http://localhost:3000/api/perso HTTP/1.1
+Content-Type:  application/json
+
+{
+    "name" : "Darren",
+    "weapon" : "Sheldon"
+}
+
+###
+
+GET http://localhost:3000/api/perso
+
+###
+GET http://localhost:3000/api/perso/wcKAvg7mvENNfElO
+
+###
+
+PATCH http://localhost:3000/api/perso/uHAwpUbj0TKyQWzz HTTP/1.1
+Content-Type: application/json
+
+{
+    "age" : 18
+}
+
+###
+
+DELETE http://localhost:3000/api/perso/cMPekVtIwxDYSQEP
